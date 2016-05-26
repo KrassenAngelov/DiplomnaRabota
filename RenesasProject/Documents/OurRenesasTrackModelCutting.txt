@@ -1,0 +1,42 @@
+1) åäíà
+	width: 	1510      mm  
+	height:  600      mm
+
+	S = 906 000       mm x mm
+
+2) åäíà
+	width: 	 300      mm
+	height:  448.53   mm
+	
+	S = 134 559       mm x mm
+
+3) åäíà
+	width: 	1550      mm
+	height:  350      mm
+
+	S = 542 500       mm x mm
+
+4) åäíà
+	width: 	 888.53   mm
+	height:  300      mm
+
+	S = 266 559       mm x mm
+
+5) 4 íà áðîé
+	width: 	 424.26   mm
+	height:  387.87   mm
+
+	S = 164 557,7262 x 4 =
+	  = 658 230,9048  mm x mm
+
+6) 2 íà áðîé
+	width: 	 530.33   mm
+	height:  431.80   mm
+
+	S = 228 996,494 x 2 =
+	  = 457992,988    mm x mm
+----------------------------------------------
+
+	S sum = 2965841,8928 mm x mm = 
+	      = 2,9658418928 m x m
+	

@@ -1,0 +1,16 @@
+Constrained Instances: 'MotorAxle-MotorGear-1/Motor-Gear-1', 'Red-Gear-1'
+Constraint Name: GearMate1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Red-Gear-1', 'RightMotor-Axle-GreenGear-HexSecure-1/Green-Gear-1'
+Constraint Name: GearMate2
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'MotorAxle-MotorGear-1/Motor-Gear-1', 'Red-Gear-1'
+Constraint Name: GearMate1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Red-Gear-1', 'LeftMotor-Axle-GreenGear-HexSecure-1/Green-Gear-1'
+Constraint Name: GearMate2
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

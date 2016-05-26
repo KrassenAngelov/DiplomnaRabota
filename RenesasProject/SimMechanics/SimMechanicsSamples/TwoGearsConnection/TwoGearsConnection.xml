@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/04/16||15:00:58" using="SimMechanics Link Version 4.4" from="SolidWorks 23.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="TwoGearsConnection" uid="TwoGearsConnection" version="107">
+<AssemblyFile name="TwoGearsConnection.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Green-Gear-1" uid="Green-Gear-1" grounded="true" entityUid="Green-Gear*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Red-Gear-1" uid="Red-Gear-1" entityUid="Red-Gear*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0040126210577238024 -0.0025000000000000001 -0.012324779309565088</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Green-Gear-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Red-Gear-1</Uid>
+</InstancePath>
+<Position>-0.00075092020568447593 0.0025000000000000001 -0.0085830572261736838</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Green-Gear" uid="Green-Gear*:*Default" version="194">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Green-Gear.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00093233760255412973</Mass>
+<CenterOfMass>0 0.0014218647209366432 0</CenterOfMass>
+<Inertia>2.6536955783195393e-008 5.1570272587702023e-008 2.653695578319573e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Green-Gear_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.28627450980392155" g="0.66274509803921566" b="0.32941176470588235" a="1"/>
+<Diffuse r="0.20039215686274509" g="0.46392156862745093" b="0.23058823529411762" a="1"/>
+<Specular r="0.014313725490196078" g="0.033137254901960782" b="0.016470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Red-Gear" uid="Red-Gear*:*Default" version="316">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Red-Gear.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00069769826762520343</Mass>
+<CenterOfMass>-7.4274524452658924e-016 0.0016394381829809477 0</CenterOfMass>
+<Inertia>1.3740082790220367e-008 2.4384073228667213e-008 1.3740082790220473e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Red-Gear_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.69411764705882351" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.48588235294117643" g="0.068627450980392149" b="0.068627450980392149" a="1"/>
+<Specular r="0.034705882352941177" g="0.0049019607843137254" b="0.0049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
